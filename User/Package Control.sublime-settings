@@ -1,0 +1,23 @@
+{
+	"auto_upgrade_last_run": null,
+	"git_binary": "git.exe",
+	"installed_packages":
+	[
+		"Better JavaScript",
+		"DocBlockr",
+		"HexViewer",
+		"Package Control",
+		"PHP Companion",
+		"Pretty JSON",
+		"SublimeLinter",
+		"Sublimerge Pro",
+		"swi",
+		"Theme - Phoenix"
+	],
+	"repositories":
+	[
+		"https://sublime.wbond.net/alpha/packages.json",
+		"https://github.com/lunixbochs/sublimelint/tree/st3",
+		"http://www.sublimerge.com/packages.json"
+	]
+}

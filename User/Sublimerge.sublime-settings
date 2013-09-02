@@ -1,0 +1,37 @@
+//You should not modify this file because it will be automatically overwritten after update.
+//To change the settings, edit the "Settings - User" file (can be found via Preferences menu)
+
+{
+    //DIFF ALGORITHM //////////////////////////////////////////////////////////////////////////////////
+
+    //Set to true if you want to ignore whitespace differences:
+    "ignore_whitespace": true,
+
+    //Diff view consists of two Sublime's views. All options defined here will be applied to them.
+    //The list of possible options can be found via Preferences -> Settings - Default
+    "view": {
+        //set to true if you want to display line numbers (they may not be corresponding
+        //with original file lines due to expanded diff regions)
+        "line_numbers": true,
+
+        //set to true if you want lines to wrap on words (this is not recommended due to
+        //readability reasons)
+        "word_wrap": true,
+
+        //set to false if you don't want to highlight corresponding lines
+        "highlight_line": true
+    },
+
+    //Path to git executable
+    "git_executable_path": "git.exe",
+
+    //Path to svn executable
+    "svn_executable_path": "svn.exe",
+
+    //Additional arguments for 'svn log' command
+    "svn_log_args": "--stop-on-copy",
+
+    //Additional arguments for 'svn cat' command
+    "svn_cat_args": ""
+
+}
