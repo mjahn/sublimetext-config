@@ -1,0 +1,10 @@
+[
+	{ "keys": ["ctrl+o"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+//	{ "keys": ["ctrl+shift+f"], "command": "find_next_conflict" },
+	{ "keys": ["ctrl+shift+o"], "command": "keep", "args": { "keep": "ours" } },
+	{ "keys": ["ctrl+shift+t"], "command": "keep", "args": { "keep": "theirs" } },
+	{ "keys": ["ctrl+shift+a"], "command": "keep", "args": { "keep": "ancestor" } },
+	{ "keys": ["ctrl+shift+c"], "command": "list_conflict_files" },
+	{ "keys": ["ctrl+shift+r"], "command": "reindent" , "args": { "single_line": false } }
+]

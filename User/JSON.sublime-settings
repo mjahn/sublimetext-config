@@ -1,6 +1,9 @@
 {
 	"extensions":
 	[
-		"log"
+		".csslintrc",
+		"json",
+		"sublime-settings",
+		".jscsrc"
 	]
 }

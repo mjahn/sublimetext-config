@@ -1,23 +1,27 @@
 {
-	"auto_upgrade_last_run": null,
-	"git_binary": "git.exe",
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"Better JavaScript",
+		"CodeFormatter",
+		"Color Highlighter",
+		"Compass",
 		"DocBlockr",
-		"HexViewer",
+		"Git Conflict Resolver",
+		"GitGutter",
+		"HTML5",
+		"JSCS-Formatter",
+		"Markdown Preview",
+		"MarkdownLight",
 		"Package Control",
-		"PHP Companion",
-		"Pretty JSON",
+		"Sass",
 		"SublimeLinter",
+		"SublimeLinter-jscs",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
 		"Sublimerge Pro",
-		"swi",
-		"Theme - Phoenix"
-	],
-	"repositories":
-	[
-		"https://sublime.wbond.net/alpha/packages.json",
-		"https://github.com/lunixbochs/sublimelint/tree/st3",
-		"http://www.sublimerge.com/packages.json"
+		"Theme - Soda SolarizedDark",
+		"Theme - Solarized Space"
 	]
 }

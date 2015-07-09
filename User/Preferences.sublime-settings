@@ -1,5 +1,18 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai Bright.tmTheme",
+	"Seti_ClosedFolder_dots": false,
+	"Seti_ClosedFolder_remove": false,
+	"Seti_ClosedFolder_same": false,
+	"Seti_SB_bright": true,
+	"Seti_SB_small": true,
+	"Seti_mouse_wheel_tabswitch": true,
+	"Seti_no_bar_undertabs": true,
+	"Seti_sb_small_padding": true,
+	"Seti_sb_tree_small": true,
+	"Seti_sb_tree_tiny": true,
+	"Seti_tabs_med": true,
+	"auto_complete": false,
+	"auto_complete_commit_on_tab": false,
+	"color_scheme": "Packages/User/SublimeLinter/Solarized (Light) (SL).tmTheme",
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -19,25 +32,53 @@
 		"*.idb",
 		".DS_Store",
 		"*.psd",
-		"*.db"
+		"*.db",
+		".editorconfig",
+		"*.sublime-*"
 	],
-	"font_size": 10,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache",
+		"node_modules",
+		".bowerrc",
+		".csslintrc",
+		".gitignore",
+		".bower-*",
+		"bower_modules",
+		"docs",
+		"coverage"
+	],
+	"font_face": "Inconsolata",
+	"font_size": 9,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"WebInspector3",
-		"hextoASCII",
-		"testscripts",
-		"JavaScript",
-		"Indent XML"
+		"SublimeCodeIntel",
+		"Vintage"
 	],
-	"phoenix_color_green": true,
-	"phoenix_dirty_bottom_bar": true,
-	"phoenix_dirty_bottom_bar_green": true,
-	"phoenix_highlight_current_tab": true,
-	"phoenix_solid_current_tab": true,
+	"index_exclude_patterns":
+	[
+		"*.log",
+		".sassc",
+		".sublime-workspace",
+		".sublime-project"
+	],
+	"index_files": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"rulers":
+	[
+		80,
+		100,
+		200
+	],
 	"sublimelinter": true,
-	"theme": "Phoenix Dark.sublime-theme",
+	"tab_completion": true,
+	"theme": "Default.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
 }
